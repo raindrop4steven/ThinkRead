@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05AFE39F675C58A707EED507 /* libPods-ThinkRead.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F657CDFA0C435B65089AC649 /* libPods-ThinkRead.a */; };
+		DE1C786B1DB8642400FE2782 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C786A1DB8642400FE2782 /* LoadingView.m */; };
+		DE1C786D1DB86AF600FE2782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1C786C1DB86AF600FE2782 /* Assets.xcassets */; };
+		DE1C78781DB8968D00FE2782 /* CycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C78731DB8968D00FE2782 /* CycleScrollView.m */; };
+		DE1C78791DB8968D00FE2782 /* KDCycleBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C78751DB8968D00FE2782 /* KDCycleBannerView.m */; };
+		DE1C787A1DB8968D00FE2782 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1C78771DB8968D00FE2782 /* NSTimer+Addition.m */; };
+		DE1C787D1DB89FDB00FE2782 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE1C787B1DB89FDB00FE2782 /* video1.mp4 */; };
+		DE1C787E1DB89FDB00FE2782 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE1C787C1DB89FDB00FE2782 /* video2.mp4 */; };
+		DE5703881DB7568600E5CC1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5703871DB7568600E5CC1F /* main.m */; };
+		DE5703911DB7568600E5CC1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE57038F1DB7568600E5CC1F /* Main.storyboard */; };
+		DE5703961DB7568600E5CC1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5703941DB7568600E5CC1F /* LaunchScreen.storyboard */; };
+		DE5703A01DB756CD00E5CC1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE57039F1DB756CD00E5CC1F /* AppDelegate.m */; };
+		DE5703B21DB75E6A00E5CC1F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5703B01DB75E6A00E5CC1F /* HomeViewController.m */; };
+		DE5703B31DB75E6A00E5CC1F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5703B11DB75E6A00E5CC1F /* HomeViewController.xib */; };
+		DE5703B61DB75EC200E5CC1F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE5703B51DB75EC200E5CC1F /* AVFoundation.framework */; };
+		DE5703BE1DB7615F00E5CC1F /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5703B91DB7615F00E5CC1F /* Common.m */; };
+		DE5703BF1DB7615F00E5CC1F /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5703BC1DB7615F00E5CC1F /* HttpRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		540C4F8047D78BE1298B6764 /* Pods-ThinkRead.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkRead.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkRead/Pods-ThinkRead.release.xcconfig"; sourceTree = "<group>"; };
+		DE1C78691DB8642400FE2782 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		DE1C786A1DB8642400FE2782 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		DE1C786C1DB86AF600FE2782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE1C78721DB8968D00FE2782 /* CycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleScrollView.h; sourceTree = "<group>"; };
+		DE1C78731DB8968D00FE2782 /* CycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleScrollView.m; sourceTree = "<group>"; };
+		DE1C78741DB8968D00FE2782 /* KDCycleBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDCycleBannerView.h; sourceTree = "<group>"; };
+		DE1C78751DB8968D00FE2782 /* KDCycleBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDCycleBannerView.m; sourceTree = "<group>"; };
+		DE1C78761DB8968D00FE2782 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		DE1C78771DB8968D00FE2782 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		DE1C787B1DB89FDB00FE2782 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		DE1C787C1DB89FDB00FE2782 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		DE5703831DB7568600E5CC1F /* ThinkRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5703871DB7568600E5CC1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE5703901DB7568600E5CC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE5703951DB7568600E5CC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE5703971DB7568600E5CC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE57039E1DB756CD00E5CC1F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE57039F1DB756CD00E5CC1F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE5703AF1DB75E6A00E5CC1F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DE5703B01DB75E6A00E5CC1F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DE5703B11DB75E6A00E5CC1F /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		DE5703B51DB75EC200E5CC1F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DE5703B81DB7615F00E5CC1F /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		DE5703B91DB7615F00E5CC1F /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		DE5703BA1DB7615F00E5CC1F /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		DE5703BB1DB7615F00E5CC1F /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		DE5703BC1DB7615F00E5CC1F /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		DE5703BD1DB7615F00E5CC1F /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		E420BCE53D38859FD85D97D3 /* Pods-ThinkRead.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThinkRead.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThinkRead/Pods-ThinkRead.debug.xcconfig"; sourceTree = "<group>"; };
+		F657CDFA0C435B65089AC649 /* libPods-ThinkRead.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ThinkRead.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE5703801DB7568600E5CC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5703B61DB75EC200E5CC1F /* AVFoundation.framework in Frameworks */,
+				05AFE39F675C58A707EED507 /* libPods-ThinkRead.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3367B5BF11B59C0A0B95AAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E420BCE53D38859FD85D97D3 /* Pods-ThinkRead.debug.xcconfig */,
+				540C4F8047D78BE1298B6764 /* Pods-ThinkRead.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE1C78711DB8968D00FE2782 /* CycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C78721DB8968D00FE2782 /* CycleScrollView.h */,
+				DE1C78731DB8968D00FE2782 /* CycleScrollView.m */,
+				DE1C78741DB8968D00FE2782 /* KDCycleBannerView.h */,
+				DE1C78751DB8968D00FE2782 /* KDCycleBannerView.m */,
+				DE1C78761DB8968D00FE2782 /* NSTimer+Addition.h */,
+				DE1C78771DB8968D00FE2782 /* NSTimer+Addition.m */,
+			);
+			path = CycleScrollView;
+			sourceTree = "<group>";
+		};
+		DE57037A1DB7568600E5CC1F = {
+			isa = PBXGroup;
+			children = (
+				DE5703851DB7568600E5CC1F /* ThinkRead */,
+				DE5703841DB7568600E5CC1F /* Products */,
+				DE5703B41DB75EC200E5CC1F /* Frameworks */,
+				C3367B5BF11B59C0A0B95AAA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DE5703841DB7568600E5CC1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE5703831DB7568600E5CC1F /* ThinkRead.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE5703851DB7568600E5CC1F /* ThinkRead */ = {
+			isa = PBXGroup;
+			children = (
+				DE57039D1DB756CD00E5CC1F /* Main */,
+				DE5703A11DB7577900E5CC1F /* Images */,
+				DE5703B71DB7615F00E5CC1F /* Common */,
+				DE5703C61DB7640A00E5CC1F /* OpenSource */,
+				DE5703A41DB757AF00E5CC1F /* ViewControllers */,
+				DE5703861DB7568600E5CC1F /* Supporting Files */,
+			);
+			path = ThinkRead;
+			sourceTree = "<group>";
+		};
+		DE5703861DB7568600E5CC1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE57038F1DB7568600E5CC1F /* Main.storyboard */,
+				DE5703941DB7568600E5CC1F /* LaunchScreen.storyboard */,
+				DE5703971DB7568600E5CC1F /* Info.plist */,
+				DE5703871DB7568600E5CC1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE57039D1DB756CD00E5CC1F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DE57039E1DB756CD00E5CC1F /* AppDelegate.h */,
+				DE57039F1DB756CD00E5CC1F /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DE5703A11DB7577900E5CC1F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C787B1DB89FDB00FE2782 /* video1.mp4 */,
+				DE1C787C1DB89FDB00FE2782 /* video2.mp4 */,
+				DE1C786C1DB86AF600FE2782 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DE5703A41DB757AF00E5CC1F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE5703AF1DB75E6A00E5CC1F /* HomeViewController.h */,
+				DE5703B01DB75E6A00E5CC1F /* HomeViewController.m */,
+				DE5703B11DB75E6A00E5CC1F /* HomeViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DE5703B41DB75EC200E5CC1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE5703B51DB75EC200E5CC1F /* AVFoundation.framework */,
+				F657CDFA0C435B65089AC649 /* libPods-ThinkRead.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE5703B71DB7615F00E5CC1F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DE5703BD1DB7615F00E5CC1F /* Message.h */,
+				DE5703BA1DB7615F00E5CC1F /* Constant.h */,
+				DE5703B81DB7615F00E5CC1F /* Common.h */,
+				DE5703B91DB7615F00E5CC1F /* Common.m */,
+				DE1C78691DB8642400FE2782 /* LoadingView.h */,
+				DE1C786A1DB8642400FE2782 /* LoadingView.m */,
+				DE5703BB1DB7615F00E5CC1F /* HttpRequest.h */,
+				DE5703BC1DB7615F00E5CC1F /* HttpRequest.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DE5703C61DB7640A00E5CC1F /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C78711DB8968D00FE2782 /* CycleScrollView */,
+			);
+			path = OpenSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE5703821DB7568600E5CC1F /* ThinkRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE57039A1DB7568600E5CC1F /* Build configuration list for PBXNativeTarget "ThinkRead" */;
+			buildPhases = (
+				1F34B54B62627AC1B7E0E768 /* [CP] Check Pods Manifest.lock */,
+				DE57037F1DB7568600E5CC1F /* Sources */,
+				DE5703801DB7568600E5CC1F /* Frameworks */,
+				DE5703811DB7568600E5CC1F /* Resources */,
+				BC1B5680DA9999FFE5D976AF /* [CP] Embed Pods Frameworks */,
+				9B2ECFC0C5413F46A9AE827A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThinkRead;
+			productName = ThinkRead;
+			productReference = DE5703831DB7568600E5CC1F /* ThinkRead.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE57037B1DB7568600E5CC1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Destiny;
+				TargetAttributes = {
+					DE5703821DB7568600E5CC1F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JX99HP7YAX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE57037E1DB7568600E5CC1F /* Build configuration list for PBXProject "ThinkRead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE57037A1DB7568600E5CC1F;
+			productRefGroup = DE5703841DB7568600E5CC1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE5703821DB7568600E5CC1F /* ThinkRead */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE5703811DB7568600E5CC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5703961DB7568600E5CC1F /* LaunchScreen.storyboard in Resources */,
+				DE5703911DB7568600E5CC1F /* Main.storyboard in Resources */,
+				DE1C787E1DB89FDB00FE2782 /* video2.mp4 in Resources */,
+				DE1C786D1DB86AF600FE2782 /* Assets.xcassets in Resources */,
+				DE1C787D1DB89FDB00FE2782 /* video1.mp4 in Resources */,
+				DE5703B31DB75E6A00E5CC1F /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F34B54B62627AC1B7E0E768 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2ECFC0C5413F46A9AE827A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkRead/Pods-ThinkRead-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC1B5680DA9999FFE5D976AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThinkRead/Pods-ThinkRead-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE57037F1DB7568600E5CC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1C786B1DB8642400FE2782 /* LoadingView.m in Sources */,
+				DE1C78781DB8968D00FE2782 /* CycleScrollView.m in Sources */,
+				DE5703A01DB756CD00E5CC1F /* AppDelegate.m in Sources */,
+				DE1C787A1DB8968D00FE2782 /* NSTimer+Addition.m in Sources */,
+				DE5703BF1DB7615F00E5CC1F /* HttpRequest.m in Sources */,
+				DE5703881DB7568600E5CC1F /* main.m in Sources */,
+				DE5703BE1DB7615F00E5CC1F /* Common.m in Sources */,
+				DE1C78791DB8968D00FE2782 /* KDCycleBannerView.m in Sources */,
+				DE5703B21DB75E6A00E5CC1F /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE57038F1DB7568600E5CC1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5703901DB7568600E5CC1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE5703941DB7568600E5CC1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE5703951DB7568600E5CC1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE5703981DB7568600E5CC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE5703991DB7568600E5CC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE57039B1DB7568600E5CC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E420BCE53D38859FD85D97D3 /* Pods-ThinkRead.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JX99HP7YAX;
+				INFOPLIST_FILE = ThinkRead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iss.Seepet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE57039C1DB7568600E5CC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540C4F8047D78BE1298B6764 /* Pods-ThinkRead.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JX99HP7YAX;
+				INFOPLIST_FILE = ThinkRead/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iss.Seepet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE57037E1DB7568600E5CC1F /* Build configuration list for PBXProject "ThinkRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5703981DB7568600E5CC1F /* Debug */,
+				DE5703991DB7568600E5CC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE57039A1DB7568600E5CC1F /* Build configuration list for PBXNativeTarget "ThinkRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE57039B1DB7568600E5CC1F /* Debug */,
+				DE57039C1DB7568600E5CC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE57037B1DB7568600E5CC1F /* Project object */;
+}
